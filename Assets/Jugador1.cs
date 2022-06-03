@@ -19,12 +19,12 @@ public class Jugador1 : MonoBehaviour
         
             if (Input.GetKey(KeyCode.D))
             {
-                transform.Rotate (0, -rotar, 0);
+                transform.Rotate (0, rotar, 0);
             }
         
             if (Input.GetKey(KeyCode.A))
             {
-                transform.Rotate (0, rotar, 0);
+                transform.Rotate (0, -rotar, 0);
             }
         if (Input.GetKey(KeyCode.W))
         {

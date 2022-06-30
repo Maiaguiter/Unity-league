@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+    // Start is called before the first frame update
+   // void start()
+  //{ 
+      // if(gol = GetComponent<AudioSource>())
+    //{
+       // AudioSource gol;
+    //}
+  //}
+    
+   
 public class Sonido : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        gol = GetComponent<AudioSource>();
-    }
-    AudioSource gol;
-    // Update is called once per frame
+    private AudioSource gol;
     void Update()
     {
         
